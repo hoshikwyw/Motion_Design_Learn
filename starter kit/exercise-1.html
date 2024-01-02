@@ -71,6 +71,11 @@
 			grid-template-columns: 1fr 1fr;
 			gap: 2rem;
 		}
+		#media video {
+			object-fit: cover;
+			border-radius: 10px;
+			border: 1px solid #7525B4;
+		}
 
 		/* Air */
 	</style>
@@ -99,6 +104,7 @@
 
 		<div id="media">
 			<!-- Air -->
+			<video src="./videos/video-1@c.mp4" width="640" height="320" controls muted loop poster="./images/video-poster.jpg"></video>
 		</div>
 	</section>
 </body>
